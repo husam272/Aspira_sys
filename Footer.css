@@ -1,0 +1,374 @@
+.footer {
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(233, 233, 233);
+    padding-top: 80px;
+}
+
+.footer-img-box {
+    height: 70px;
+    width: 80%;
+}
+
+.logo-foot a img {
+    width: 100%;
+    height: 100%;
+}
+
+.logo-foot p {
+    font-size: 12px;
+    margin-top: 5px;
+    color: rgb(22, 22, 22);
+}
+
+.footer-col {
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    width: 25%;
+    color: rgb(22, 22, 22);
+    text-transform: capitalize;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.left-1 {
+    border-right: 2px solid rgb(134, 129, 129);
+    /* padding: 3px; */
+    margin-left: 5px;
+}
+
+.left-2 {
+    border-right: 2px solid rgb(134, 129, 129);
+    padding: 10px;
+    margin-right: 5px;
+}
+
+.left-3 {
+    border-right: 2px solid rgb(134, 129, 129);
+    padding: 15px;
+    margin-right: 5px;
+}
+
+.footer-col a {
+    color: rgb(22, 22, 22);
+    text-decoration: none;
+}
+
+.footer-col a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.footer_det {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.enrol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    width: 100%;
+    margin: auto;
+    transform: translateY(60px);
+}
+
+.enrol div {
+    width: 90%;
+    height: 100%;
+    background-color: white;
+    box-shadow: 0px -10px 20px rgba(0, 0, 0, .1);
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.enrol div p {
+    margin-left: 20px;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+
+.enrol div form {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+/* input-box  */
+
+.input-box {
+    position: relative;
+    width: 250px;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 5px;
+    color: black;
+    font-size: 1em;
+    transition: 0.5s;
+}
+
+.input-box span {
+    position: absolute;
+    left: 0;
+    padding: 10px;
+    pointer-events: none;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: rgba(black, 0.25);
+    transition: 0.5s;
+}
+
+.input-box input:valid~span,
+.input-box input:focus~span {
+    color: rgb(59, 6, 185);
+    transform: translateX(10px) translateY(-20px);
+    font-size: 10px;
+    padding: 0 10px;
+    background: white;
+    border-left: 1px solid rgb(59, 6, 185);
+    border-right: 1px solid rgb(59, 6, 185)k;
+    letter-spacing: 0.2em;
+}
+
+.input-box input:valid,
+.input-box input:focus {
+    border: 1px solid rgb(59, 6, 185);
+}
+
+/* Button */
+
+.container-btn a {
+    position: relative;
+    width: 110px;
+    height: 30px;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.container-btn a:after,
+.container-btn a:before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    transition: 0.5s;
+}
+
+.container-btn a:before,
+.container-btn a:after {
+    background: linear-gradient(10deg, white, #d400d4, #0e1538, blue);
+}
+
+a:hover:before {
+    inset: -3px;
+}
+
+a:hover:after {
+    inset: -3px;
+    filter: blur(10px);
+}
+
+
+.container-btn a span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    background-color: #0e1538;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: lavender;
+    border-radius: 5px;
+    overflow: hidden
+}
+
+.container-btn a span::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -50%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.075);
+    transform: skew(25deg);
+}
+
+@media screen and (max-width:990px) {
+    .footer {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .footer {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .footer {
+        flex-direction: column;
+        height: 100%;
+        padding: 10px;
+    }
+
+    .footer-col {
+        border-right: none;
+        border-bottom: 1px solid rgb(134, 129, 129);
+        width: 100%;
+    }
+
+    .footer-img-box {
+        width: 200px;
+    }
+
+    .enrol {
+        transform: translate(0px);
+        margin-top: 10px;
+        height: 100%;
+    }
+
+    .enrol div {
+        flex-direction: column;
+        height: 100%;
+        box-shadow: none;
+    }
+
+    .enrol div .form {
+        width: 100%;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .enrol div .form input {
+        width: 100%;
+        margin: 20px 0px;
+    }
+
+    .enrol div .form .input-box span {
+        margin-left: 6rem;
+    }
+
+    .enrol div .form button {
+        margin-right: 0px;
+    }
+}
+@media screen and (max-width:1050px) {
+    .enrol div p {
+       
+        font-size: 23px;
+}
+@media screen and (max-width:970px) {
+    .enrol div p {
+       
+        font-size: 21px;
+}
+@media screen and (max-width:906px) {
+
+    .enrol div form {
+        width: 65%;
+    }
+    .enrol div p {
+        font-size: 18px;
+    }
+}
+@media screen and (max-width:881px) {
+    .enrol div p {
+        font-size: 16px;
+    }
+
+}
+@media screen and (max-width:850px) {
+    .enrol div form {
+        width: 70%;
+    }
+    .enrol div p {
+        font-size: 14px;
+    }
+
+
+}
+@media screen and (max-width:816px) {
+    .enrol div p {
+        font-size: 13px;
+    }
+
+}
+@media screen and (max-width:764px) {
+    .enrol div p {
+        font-size: 12px;
+    }
+
+}
+@media screen and (max-width:750px) {
+    .enrol div p {
+        font-size: 25px;
+    }
+    .enrol div .form .input-box span {
+        margin-left: 0rem;
+    }
+
+}
+
+@media screen and (max-width:550px) {
+
+    .enrol div .form input {
+        width: 100%;
+    }
+
+    .enrol div .form .input-box span {
+        margin-left: 0rem;
+    }
+    .footer {
+        width: 112%;
+    }
+    .enrol {
+   
+        margin-left: 2rem;
+    }
+
+}
+@media screen and (max-width:420px) {
+    .enrol div p {
+        font-size: 23px;
+    }
+
+}
+@media screen and (max-width:389px) {
+    .enrol div p {
+        font-size: 21px;
+    }
+
+}
+
+
+@media screen and (max-width: 360px) {
+    .enrol div .form .input-box span {
+        margin-left: 3rem;
+    }
+
+    .container1 .text .text1 .li {
+        margin: 0px 0px;
+    }
+}
