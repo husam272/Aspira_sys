@@ -242,9 +242,9 @@ section {
     margin-top: 5rem;
 }
 
-.aspirant-container>h1 {
+.aspirant-container > h1 {
     position: absolute;
-    margin-top: 20px;
+    margin-top: 45px;
 }
 
 .crd_bdy {
@@ -1156,7 +1156,6 @@ a:hover:after {
 
 @media screen and (max-width:703px) {
     .about-container h1 {
-
         margin-left: 55px;
     }
 
@@ -1272,10 +1271,8 @@ a:hover:after {
         margin: auto;
     }
 
-
-
     .intro-container #img_1 {
-        width: 111.5%;
+        width: 120%;
     }
 
     .intro-left h1:nth-child(1) {
@@ -1340,8 +1337,8 @@ a:hover:after {
     }
 
     .aspirant-container {
-
-        margin-left: 4rem;
+        width: 120%;
+        /* margin-left: 4rem; */
     }
 
     .aspirant-container #crd_hover {
@@ -1450,9 +1447,13 @@ a:hover:after {
 
     .container5 {
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
+    #cont-2_bg{
+        display: flex;
+        flex-direction: column;
+    }
     .text {
 
         width: 100%;
@@ -1502,7 +1503,7 @@ a:hover:after {
     }
 
     .intro-container #img_1 {
-        width: 113%;
+        width: 120%;
     }
 
     .about-container h1 {
@@ -1752,7 +1753,7 @@ a:hover:after {
 
 @media screen and (max-width:387px) {
     .intro-container #img_1 {
-        width: 123%;
+        width: 131%;
     }
 
     .text h1 {
@@ -1791,6 +1792,9 @@ a:hover:after {
 
     }
 
+    .container6{
+        width: 120%;
+    }
 
 
 }

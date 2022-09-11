@@ -560,6 +560,11 @@
     }
 }
 @media screen and (max-width:550px) {
+    
+    .about .wd{
+        width: 106%;
+    }
+    
     .sponcer-container .main{
         align-items: center;
         flex-direction: column;
@@ -600,6 +605,10 @@
     
 }
 @media screen and (max-width:490px) {
+    .about .wd{
+        margin: auto;
+        width: 106%;
+    }
     .sponcer-container {
         height: 145vh;
     }
@@ -615,6 +624,9 @@
     }
 }
 @media screen and (max-width:461px) {
+    .about .wd{
+        width: 106%;
+    }
     .hed {
         font-size: 15px;
     }

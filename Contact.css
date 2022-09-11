@@ -93,7 +93,6 @@
     padding-left: 5px;
     padding-top: 4px;
     border: 2px solid #1c1852;
-    width: ;
 }
 
 #sub {
@@ -200,13 +199,13 @@
         width: 100%;
     }
 
-     #form input {
-        
-     width: 69%;
-     height: 40px;
-     margin-top: 5px;
-     margin-bottom: 10px;
-     border-color: #1c1852;        
+    #form input {
+
+        width: 69%;
+        height: 40px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        border-color: #1c1852;
     }
 
     .cont .social {
@@ -225,6 +224,7 @@
 
 
 @media screen and (max-width: 690px) {
+
     .img_1 {
         height: 80vh;
     }
