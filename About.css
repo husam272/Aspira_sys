@@ -71,8 +71,7 @@
      margin-top: 55px; 
         height: 100vh;
         background: url('./images/common/ui-1.png');
-        /* display: flex; */
-    /* background: beige;  */
+      
  }
 
 #gif img {
@@ -83,7 +82,7 @@
 
 .heading{
     font-size: 24px;
-    /* font-weight: bold; */
+   
     text-align: center;
     padding-top: 10px;
     margin-bottom: 10px;
@@ -129,7 +128,7 @@
 }  
 
 .main { 
-    /* position: relative;  */
+   
     display: flex;
     justify-content: space-between;
 }
@@ -159,26 +158,6 @@
 
 /* -------------------------------------------------------- */
 
-
-/* .text {
-    color: black;
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    padding-left: 3rem;
-    margin-top: 10px;
-    padding-top: 10px;
-    width: 55%;
-}
-
-.text1 {
-    font-size: 17px;
-    margin-top: 30px;
-}
-
-.text h1 {
-    font-size: 45px;
-} */
 
 .mentors {
     background: url('./images/common/ui-2.png');
@@ -499,7 +478,7 @@
 
     .card {
         width: 200px;
-        /* min-height: 350px; */
+     
     }
 
     .card .details .content h2 {
@@ -588,7 +567,7 @@
         width: 85%;
         height: 100vh;
         margin-top: -15rem;
-        /* margin-right: 20px; */
+       
     }
     #cont h4 {
         font-size: 19px;

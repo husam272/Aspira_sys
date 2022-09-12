@@ -85,8 +85,8 @@ margin-top: 30px;
 
 #sk_3 {
     margin-top: 0px;
-    /* background: white; */
 }
+
 #sk_4{
  background:rgb(233, 233, 233);
 }
@@ -176,7 +176,7 @@ margin-top: 30px;
 }
 
 #hed3 {
-    /* background: #fafbfb; */
+    
     padding-top: 35px;
     padding-bottom: 40px;
 }
@@ -300,16 +300,6 @@ margin-top: 30px;
     opacity: 0.6;
 }
 
-/* .Expressjs{
-    background: url('./Expressjs.png') center center no-repeat;
-    background-size: 90%;
-}
-
-.Expressjs:hover {
-    transform: translateY(20px);
-    transition: all 0.5s ease;
-    opacity: 0.6;
-} */
 
 
 .Flutter {
@@ -429,10 +419,7 @@ margin-top: 30px;
     transition: all 0.5s ease;
     opacity: 0.6;
 }
-/* .fluid {
-    background: url('/gfn.png') center center no-repeat;
-    background-size: 100%; */
-/* } */
+
 
 .textlong {
     width: 100%;
@@ -468,7 +455,7 @@ margin-top: 30px;
     background-color: rgb(153, 28, 236);
     width: 50%;
     border-radius: 400px 0px 0px 400px;
-    /* text-align: center; */
+   
     margin: 30px;
     padding: 30px;
 }
@@ -476,7 +463,9 @@ margin-top: 30px;
 .righttext p {
     text-align: center;
 }
-----------PROGRAMMING LANGUAGE ---------------------------------
+
+PROGRAMMING LANGUAGE 
+
 .container_3 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(120px, auto));
@@ -574,29 +563,28 @@ margin-top: 30px;
 
 }
 .divide1 {
-    /* display: flex; */
+   
     display: inline-block;
     width: 100%;
     margin-top: 2rem;
 }
 
 .divide1 .process1 {
-     /* float: left;  */
      float: right;
    
     width: 65%;
     font-size: 18px;
     margin-left: 25px;
-    /* background-color: aquamarine; */
+    
     word-spacing: 6px;
 }
 .divide1 .process1 p {
     padding-right: 3rem;
-    /* margin-top: 2rem; */
+ 
 }
 
 .divide1 #gif {
-    /* float: right;  */
+  
     float: left;
    
     width: 30%;
@@ -606,13 +594,13 @@ margin-top: 30px;
     margin-left: 45px;
     height: 300px;
     width: 100%;
-    /* border: 2px solid black; */
+    
 }
 
 /*------------------------------------------------------------*/
 #hed2 {
     text-align: center;
-    /* margin-left: 20rem; */
+
     font-size: 18px;
     text-transform: capitalize;
     margin-bottom: 35px;
@@ -633,7 +621,7 @@ margin-top: 30px;
     width: 65%;
     font-size: 18px;
     margin-left: 25px;
-    /* background-color: aquamarine; */
+   
     word-spacing: 6px;
 }
 h1{
