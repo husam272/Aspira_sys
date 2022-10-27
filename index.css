@@ -2045,7 +2045,10 @@ a:hover:after {
 
     .motive img {
 
-        width: 335px;
+        
+    width: 300px;
+    margin-left: -10px;
+
     }
 
     .inner-partt .img {
