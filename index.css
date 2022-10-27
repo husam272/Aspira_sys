@@ -1636,7 +1636,7 @@ a:hover:after {
     }
 
     .crd_bdy {
-        gap: 20px
+        gap: 0px
     }
 
     .content .title {
@@ -2062,8 +2062,24 @@ a:hover:after {
     }
     .horizontal{
         display: flex;
+
+    }
+    #success{
+        display: flex;
         justify-content: space-between;
         width: 5%;
+    }
+    .carousel-indicators .active{
+        display: none;
+    }
+    .carousel-indicators button{
+        display: none;
+    }
+    .carousel-control-prev-icon{
+        display: none;
+    }
+    .carousel-control-next-icon{
+        display: none;
     }
 
     .content .title {
