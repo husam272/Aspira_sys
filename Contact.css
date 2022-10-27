@@ -17,8 +17,10 @@
 }
 
 .img_1 {
-    width: 100%;
-    height: 100vh;
+    width:50%;
+    height: 80vh;
+    margin-left: 25%;
+    padding-top: 20px;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -50,22 +52,30 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    background: gainsboro;
+   background-image: url(/images/common/download-2.png);
+    background-size: cover;
     padding-bottom: 40px;
 }
 
 .social h2 {
     text-align: center;
     margin-top: 20px;
+    font-weight: bold;
 }
 
 #form {
     margin-top: 20px;
 }
+#form h2{
+    text-transform: uppercase;
+    font-family: 'Play', sans-serif;
+}
 
 #form label {
     font-size: 18px;
     font-weight: 500;
+    color:black;
+    font-weight: bold;
     font-style: normal;
     margin-bottom: 10px;
 }
@@ -74,31 +84,55 @@
     width: -webkit-fill-available;
     height: 40px;
     margin-top: 5px;
+    background-color: transparent;
+    border-radius: 7px;
     margin-bottom: 10px;
-    border-color: #1c1852;
+    border-color: black;
+    padding-left: 10px;
+    outline: none;
+} 
+#form textarea{
+    border-color:black ;
+    padding-left: 10px;
+    outline: none;
 }
 
 #form input::placeholder {
+    color: black;
     font-weight: bold;
     font-size: 12px;
-    padding-left: 5px;
+    /* padding-left: 5px; */
     word-spacing: 5px;
 }
+#form textarea::placeholder{
+    color: black;
+    font-weight: bold;
+} 
+#form .border12{
+    border-bottom: 4px solid black;
+    width: 35%;
+    margin-left: 30%;
+    border-radius: 10px 10px;
+}
 
-#message {
+
+#msg {
     margin-top: 10px;
     margin-bottom: 10px;
     font-style: oblique;
     font-weight: 400;
     padding-left: 5px;
     padding-top: 4px;
+    background-color: transparent;
+    border-radius: 7px;
     border: 2px solid #1c1852;
 }
 
 #sub {
     margin-left: 35%;
     padding: 5px 20px;
-    border: 2px solid #1c1852;
+    font-weight: bold;
+    border: 2px solid black;
     border-radius: 25px;
     font-size: 15px;
     background-color: #1c1852;
@@ -107,10 +141,12 @@
     cursor: pointer;
 }
 
-#sub:hover {
-    background: transparent;
-    color: black;
+#sub:hover{
+    background:transparent;
+    color:#1c1852;
+    border: 2px solid #1c1852;
     font-size: 15px;
+    font-weight: bold;
 }
 
 .social .icons {
@@ -177,6 +213,14 @@
         align-items: center;
     }
 }
+@media screen and (max-width: 90px) {
+    #form .border12{
+        border-bottom: 4px solid black;
+        width: 20%;
+        margin-left: 20%;
+        border-radius: 10px 10px;
+    }
+}
 
 @media screen and (max-width:790px) {
 
@@ -200,10 +244,10 @@
     }
 
     #form input {
-
-        width: 69%;
+        width: 60%;
         height: 40px;
         margin-top: 5px;
+     
         margin-bottom: 10px;
         border-color: #1c1852;
     }
@@ -220,11 +264,16 @@
         flex-direction: row;
         margin-top: 40px;
     }
+    #form .border12{
+        border-bottom: 4px solid black;
+        width: 20%;
+        margin-left: 15%;
+        border-radius: 10px 10px;
+    }
 }
 
 
 @media screen and (max-width: 690px) {
-
     .img_1 {
         height: 80vh;
     }
@@ -250,11 +299,24 @@
     }
 
 
-    #form #message {
-        width: 70%;
+    #form #msg {
+        width: 60%;
+    }
+    #form .border12{
+        border-bottom: 4px solid black;
+        width: 25%;
+        margin-left: 20%;
+        border-radius: 10px 10px;
     }
 }
-
+@media screen and (max-width:580px){
+    #form .border12{
+        border-bottom: 4px solid black;
+        width: 25%;
+        margin-left: 15%;
+        border-radius: 10px 10px;
+    }
+}
 @media screen and (max-width:480px) {
 
     .img_1 {
@@ -264,6 +326,12 @@
     iframe {
         width: 300px;
     }
+    #form .border12{
+        border-bottom: 4px solid black;
+        width: 25%;
+        margin-left: 10%;
+        border-radius: 10px 10px;
+    }
 
 
 }
@@ -271,6 +339,12 @@
 @media screen and (max-width:348px) {
     #form {
         margin-left: 2rem;
+    }
+    #form .border12{
+        border-bottom: 4px solid black;
+        width: 15%;
+        margin-left: 10%;
+        border-radius: 10px 10px;
     }
 
 }

@@ -14,6 +14,11 @@ body{
     padding: 3rem 0 3rem 2rem;
     margin-bottom: 15px;
 }
+ #sk_4 h2 {
+    text-transform: uppercase;
+    font-family: 'Play', sans-serif;
+    
+}
 
 .text01 {
     display: flex;
@@ -29,6 +34,14 @@ body{
     padding-bottom: 1px;
     margin-left: 3px;
 }
+#hed h1{
+        text-transform: uppercase;
+        font-family: 'Play', sans-serif;
+    
+}
+#hed p{
+    font-family: 'Dosis', sans-serif;
+}
 
 #colr {
     color: #1c1852;
@@ -37,6 +50,9 @@ body{
 #prof {
     text-align: center;
     margin-bottom: 30px;
+}
+#prof p{
+    font-family: 'Dosis', sans-serif;
 }
 #h3{
 color:black;
@@ -552,6 +568,16 @@ PROGRAMMING LANGUAGE
     text-transform: capitalize;
     margin-bottom: 30px;
 }
+#hed5 h3{
+        text-transform: uppercase;
+        font-family: 'Play', sans-serif;
+    
+}
+#hed5 h3 span{
+ 
+    font-family: 'Play', sans-serif;
+
+}
 
 #tags {
     font-weight: bolder;
@@ -580,6 +606,7 @@ PROGRAMMING LANGUAGE
 }
 .divide1 .process1 p {
     padding-right: 3rem;
+    font-family: 'Dosis', sans-serif;
  
 }
 
@@ -605,6 +632,10 @@ PROGRAMMING LANGUAGE
     text-transform: capitalize;
     margin-bottom: 35px;
 }
+#hed2 h3{
+    text-transform: uppercase;
+    font-family: 'Play', sans-serif;
+}
 #tags {
     font-weight: bolder;
     border-bottom: 2px solid rgb(3, 3, 177);
@@ -623,6 +654,16 @@ PROGRAMMING LANGUAGE
     margin-left: 25px;
    
     word-spacing: 6px;
+}
+.divide .process p{
+    font-family: 'Dosis', sans-serif;
+}
+.divide .process h2{
+    text-transform: uppercase;
+    font-family: 'Play', sans-serif;
+}
+.divide .process h2 span{
+    font-family: 'Play', sans-serif;
 }
 h1{
     margin-left: 8rem;

@@ -22,14 +22,16 @@
 
 .about h5 {
     position: relative;
-    letter-spacing: .8px;
-    font-size: 25px;
+    letter-spacing: 2px;
+    /* font-weight: bold; */
+    font-size: 35px;
     margin-bottom: 30px;
-    text-transform: capitalize;
+    text-transform: uppercase;
     padding-top: 65px;
     color: var(--default-color);
     cursor: default;
     text-align: center;
+    font-family: 'Play', sans-serif;
 }
 
 #colr {
@@ -92,8 +94,33 @@
     padding-top: 10px;
     font-size: 18px;
 }
+.sponcer-container .main #cont p #p{
+    font-family: 'Dosis', sans-serif;
+}
 
-.button-group3 {
+
+.button-group3{
+    margin-top: 40px;
+}
+.button-group3 a{
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid #1c1852;
+    background-color: #1c1852;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 10px;
+
+
+}
+.button-group3 a:hover{
+    color: #1c1852;
+    background: transparent;
+    border: 2px solid #1c1852;
+    font-weight: bold;
+}
+
+/* .button-group3 {
     background-color: #1c1852;
     height: 35px;
     border-radius: 20px;
@@ -118,14 +145,17 @@
  .button-group3 a:hover {
     color: black;
     font-weight: bolder;
- } 
+ }  */
 
  #head {
     text-align: center;
-    text-transform: capitalize;
+    text-transform: uppercase;
     padding-top: 20px;
     letter-spacing: 2px;
 }  
+#head h1{
+    font-family: 'Play', sans-serif;
+}
 
 .main { 
    
@@ -173,7 +203,7 @@
 
 .card {
     position: relative;
-    width: 300px;
+    width: 240px;
     height: 350px;
     background: white;
     transform-style: preserve-3d;
@@ -255,17 +285,28 @@
 .card .details .content .social-icons {
     display: relative;
     display: flex;
-    margin-top: 50px;
+    margin-top: 70px;
 }
+
+.card .details .content #ma {
+    margin-top: 30px;
+}
+
+.card .details .content #fr {
+    margin-top: 0px;
+}
+
 
 .card .details .content #fr {
     margin-top: 30px;
 }
 
+
 .card .details .content .social-icons a {
+    
     display: inline-block;
-    width: 35px;
-    height: 35px;
+    width: 45px;
+    height: 45px;
     background: black;
     color: white;
     display: flex;
@@ -275,10 +316,12 @@
     margin: 5px;
     font-size: 18px;
     transition: 0.5s;
+    border-radius: 50%;
+    
 }
 
 .card .details .content .social-icons a:hover {
-    background: #3f09c6;
+background-color: #1c1852;
 }
 
 .horizontal {

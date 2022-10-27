@@ -13,7 +13,8 @@
 }
 
 .logo-foot a img {
-    width: 100%;
+    margin-left: 3px;
+    width: 80%;
     height: 100%;
 }
 
@@ -279,10 +280,12 @@ a:hover:after {
        
         font-size: 23px;
 }
+}
 @media screen and (max-width:970px) {
     .enrol div p {
        
         font-size: 21px;
+}
 }
 @media screen and (max-width:906px) {
 
@@ -341,11 +344,11 @@ a:hover:after {
         margin-left: 0rem;
     }
     .footer {
-        width: 112%;
+        width: 100%;
     }
     .enrol {
    
-        margin-left: 2rem;
+        /* margin-left: 2rem; */
     }
 
 }
