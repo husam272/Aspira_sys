@@ -1645,6 +1645,7 @@ a:hover:after {
 
     .text h1 {
         font-size: 15px;
+        
     }
 
     .motive {
@@ -2061,6 +2062,8 @@ a:hover:after {
     }
     .horizontal{
         display: flex;
+        justify-content: space-between;
+        width: 5%;
     }
 
     .content .title {
