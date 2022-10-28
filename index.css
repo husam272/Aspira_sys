@@ -2075,6 +2075,10 @@ a:hover:after {
     .reveal2 .cards .content2 .details2 .actionBtn{
         margin-bottom: 30px;
     }
+    .reveal2 .mentors{
+        width: 100%;
+    }
+
 
     #success{
         display: flex;
@@ -2094,9 +2098,21 @@ a:hover:after {
         display: none;
     } */
 
+
     .container6 .horizontal{
         display: flex;
         gap: 0%;
+    }
+    .content{
+        margin-left: -9%;
+    }
+    .container5 .text{
+        width: 100%;
+       margin-right: 60px;
+    }
+    .container5 .text h1{
+   
+       margin-left: 30px;
     }
 
     .content .title {
