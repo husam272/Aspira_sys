@@ -715,11 +715,11 @@ h1{
 
 /* ---------------------------------------- */
 
-.asp {
+.reveal2 .asp {
     display: flex;
     justify-content: space-evenly;
-    margin-top: 5rem;
-    margin-left: 17rem;
+    margin-top: 10rem;
+    margin-left: 0rem;
 }
 .asp h1{
     text-transform: uppercase;
@@ -2130,6 +2130,7 @@ a:hover:after {
     .carousel-inner{
         padding-left: 0%;
     }
+
 }
 
 @media screen and (max-width:430px) {
