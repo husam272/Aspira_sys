@@ -1459,7 +1459,7 @@ a:hover:after {
     }
 
     #crd_hover:hover {
-        height: 450px;
+        height: 490px;
     }
 
     .container2 a {
@@ -2060,27 +2060,39 @@ a:hover:after {
     .content span {
         margin-left: -9rem;
     }
-    .horizontal{
+    .reveal2 .horizontal{
         display: flex;
+        flex-direction: column;
+        margin-left: 20%;
 
     }
+    .reveal2 .cards{
+        width: 250px;
+    }
+    .reveal2 .asp{
+        margin-left: 0%;
+    }
+    .reveal2 .cards .content2 .details2 .actionBtn{
+        margin-bottom: 30px;
+    }
+
     #success{
         display: flex;
         justify-content: space-between;
         width: 5%;
     }
-    .carousel-indicators .active{
+    .reveal2 .carousel-indicators .active{
         display: none;
     }
-    .carousel-indicators button{
+    .reveal2 .carousel-indicators button{
         display: none;
     }
-    .carousel-control-prev-icon{
+    /* .reveal2 .carousel-control-prev-icon{
         display: none;
     }
-    .carousel-control-next-icon{
+    .reveal2 .carousel-control-next-icon{
         display: none;
-    }
+    } */
 
     .content .title {
         margin-left: -9rem;
@@ -2093,6 +2105,9 @@ a:hover:after {
     .inner-partt {
 
         margin-top: 2rem;
+    }
+    .carousel-inner{
+        padding-left: 2%;
     }
 }
 
@@ -2171,6 +2186,7 @@ a:hover:after {
         font-size: 35px;
 
     }
+    
 }
 
 @media screen and (max-width:400px) {
@@ -2192,6 +2208,9 @@ a:hover:after {
     .container1 .text{
         width: 100%;
         margin-left: -10px;
+    }
+    .reveal2 .horizontal{
+        margin-left: 10%;
     }
 
 
@@ -2240,6 +2259,9 @@ a:hover:after {
 
     .container6{
         width: 100%;
+    }
+    .reveal2 .horizontal{
+        margin-left: 10%;
     }
 
 
@@ -2307,6 +2329,9 @@ a:hover:after {
 
     .content .text2 {
         padding-right: 12rem;
+    }
+    .reveal2 .horizontal{
+        margin-left: 10%;
     }
 
 }
