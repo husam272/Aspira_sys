@@ -805,6 +805,9 @@ h1{
     .divide1 #gif{
         width: 95%;
     }
+    .container_2{
+        width: 90%;
+    }
 } 
 @media screen and (max-width:400px){
     .divide{
